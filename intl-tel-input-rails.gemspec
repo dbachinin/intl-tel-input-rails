@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
     This gem allows for its easy inclusion into the Rails asset pipeline.
   TEXT
 
-  spec.required_ruby_version = ">= 1.8.7"
+  spec.required_ruby_version = ">= 2.6"
 
   spec.license       = "MIT"
 
@@ -26,8 +26,8 @@ Gem::Specification.new do |spec|
 
   spec.rdoc_options << "--exclude" << "."
 
-  spec.add_dependency "railties", ">= 3.1"
+  spec.add_dependency "railties", ">= 4.0"
   spec.add_dependency "sass-rails"
-  spec.add_development_dependency "bundler", "~> 1.5"
+  spec.add_development_dependency "bundler", "~> 1.17"
   spec.add_development_dependency "rake"
 end
